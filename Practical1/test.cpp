@@ -17,4 +17,11 @@ int main()
 	//cout << divideXbyY(2.0, 0.0) << "\n";
 
 	//return 0;
+
+	//cout << calc(2.0, '+', 5.0) << "\n";
+	//cout << calc(2.0, '*', 5.0) << "\n";
+	//cout << calc(7.0, '-', 2.0) << "\n";
+	//cout << calc(10.0, '^', 2.0) << "\n";
+	//cout << calc(2.0, '/', 0.0) << "\n";
+	//cout << calc(2.0, '/', 4.0) << "\n";
 }

@@ -29,3 +29,30 @@ double divideXbyY(double x, double y)
 		return x / y;
 	}
 }
+
+double calc(double a, char op, double b)
+{
+	if (op == '+')
+	{
+		return a + b;
+	}
+	else if (op == '-')
+	{
+		return a - b;
+	}
+	else if (op == '*')
+	{
+		return a * b;
+	}
+	else if (op == '/')
+	{
+		if (b == 0.0) {
+			cout << "Division by zero error!" << endl;
+		}
+		return a / b;
+	}
+	else if (op == '^')
+	{
+		return pow(a, b);
+	}
+}
