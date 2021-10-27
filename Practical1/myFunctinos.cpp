@@ -32,27 +32,21 @@ double divideXbyY(double x, double y)
 
 double calc(double a, char op, double b)
 {
-	if (op == '+')
-	{
+	switch (op) {
+	case '+':
 		return a + b;
-	}
-	else if (op == '-')
-	{
+		break;
+	case '-':
 		return a - b;
-	}
-	else if (op == '*')
-	{
+		break;
+	case '*':
 		return a * b;
-	}
-	else if (op == '/')
-	{
-		if (b == 0.0) {
-			cout << "Division by zero error!" << endl;
-		}
-		return a / b;
-	}
-	else if (op == '^')
-	{
-		return pow(a, b);
+		break;
+	case '/':
+		return divideXbyY(a, b);
+		break;
+	default:
+		cout << "Unknown operator: " << op << endl;
+		exit(0);  // no appropriate double-precision number to return here, so terminate the program
 	}
 }
