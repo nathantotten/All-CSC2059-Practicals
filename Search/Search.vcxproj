@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fc9fe07c-1b48-46cc-8f55-2d12c849cc4d}</ProjectGuid>
-    <RootNamespace>Practical2</RootNamespace>
+    <ProjectGuid>{cd7a7d8c-e08b-4286-890e-2bc42ff3986a}</ProjectGuid>
+    <RootNamespace>Search</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test1.cpp" />
+    <ClCompile Include="test4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Search.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
