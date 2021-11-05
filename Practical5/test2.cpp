@@ -5,14 +5,14 @@
 
 using namespace std;
 
-bool isWord(string item) {
+/*bool isWord(string item) {
 	int i = 0;
 	while (i < item.size() && (isupper(item[i]) || islower(item[i])))
 		i++;
 	return (i > 0 && i == item.size());
 }
 
-int main() {
+int main2() {
 	// allocate a string-type list pointed to by pc, used to store all
 	// words in the corpus
 	List<string>* pc = new List<string>;
@@ -40,4 +40,4 @@ int main() {
 
 
 	return 0;
-}
+}*/
